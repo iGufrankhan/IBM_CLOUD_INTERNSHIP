@@ -1,0 +1,67 @@
+# **Nutrition Agent – AI & Cloud-Based Recommendation System**
+
+## **Project Overview**
+The **Nutrition Agent** is an AI-powered system developed using **IBM Cloud** and **WatsonX Runtime** to provide real-time nutritional recommendations.  
+It analyzes user inputs (age, weight, health goals, dietary preferences) and predicts optimal nutrition plans.  
+This project was built as part of the **AICTE & IBM SkillsBuild 4-Week Internship** on Emerging Technologies (AI & Cloud).
+
+---
+
+## **Features**
+- **AI-Based Nutrition Recommendations:** Generates personalized diet plans.  
+- **Cloud-Enabled System:** Deployed using IBM Cloud Object Storage and WatsonX Runtime.  
+- **Real-Time Data Integration:** Web scraping from Google, DuckDuckGo, Wikipedia, and weather sources.  
+- **Interactive Interface:** Provides output via terminal or web-based interface.  
+- **Scalable Architecture:** Easily expandable for advanced features.
+
+---
+
+## **System Approach**
+1. **Data Collection**  
+   - Scraped data from search engines (Google, DuckDuckGo) and Wikipedia.  
+   - Weather data to adapt diet recommendations (e.g., hydration advice in hot climates).  
+   - User inputs: age, weight, goals, and dietary preferences.  
+
+2. **Data Storage**  
+   - IBM Cloud Object Storage used for saving datasets and outputs.  
+
+3. **Model Building**  
+   - Prompt-based AI using **WatsonX Runtime** for nutrition recommendations.  
+
+4. **Deployment**  
+   - Hosted on **IBM Cloud** and accessible via command line or web interface.  
+
+5. **Evaluation**  
+   - Compared generated diets with standard nutrition guidelines and user feedback.
+
+---
+
+## **Algorithm**
+### **Algorithm Selection**  
+- Prompt-based AI model using WatsonX for generating meal plans.  
+- Chosen for its adaptability to dynamic and real-time data.
+
+### **Data Input**  
+- User parameters (age, weight, goals).  
+- Weather conditions.  
+- Web-scraped nutritional databases.
+
+### **Training Process**  
+- Pre-trained models enhanced through prompt-tuning.  
+- Hyperparameter adjustments to improve response quality.
+
+### **Prediction Process**  
+- Generates real-time recommendations based on user input.  
+- Adjusts results with contextual data like weather and goals.
+
+---
+
+## **Results**
+- The model provided **accurate and relevant nutrition recommendations**.  
+- **Terminal Example:**  
+  ```bash
+  User Input: Age: 25, Weight: 70kg, Goal: Muscle Gain
+  Nutrition Agent Output:
+  - Breakfast: Oats with milk and nuts
+  - Lunch: Grilled chicken, brown rice, and vegetables
+  - Dinner: Paneer with quinoa and salad
