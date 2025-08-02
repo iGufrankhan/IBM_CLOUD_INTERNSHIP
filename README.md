@@ -1,6 +1,5 @@
-##############################
+
 # Nutrition Agent – AI & Cloud-Based Recommendation System
-##############################
 
 Project Overview:
 The Nutrition Agent is an AI-powered system developed using IBM Cloud and WatsonX Runtime to provide real-time nutritional recommendations.
@@ -77,5 +76,4 @@ Acknowledgment & Thanking:
 I sincerely thank AICTE, Edunet Foundation, and IBM SkillsBuild for providing this internship and the opportunity to learn and implement emerging technologies.
 I would like to thank Tarun Sir, Narendra Sir, Edunet Foundation, and IBM for their constant guidance and for giving me this wonderful opportunity to develop my skills in AI, Cloud Computing, and Data Analytics.
 This internship has enhanced my technical knowledge and given me the confidence to build real-world, scalable solutions.
-
-##############################
+                                                                                       THANK YOU
